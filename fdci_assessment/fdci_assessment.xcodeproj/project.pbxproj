@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FB83BECBE227691F7634CF /* Pods_fdci_assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179442D504510CCAA0B73028 /* Pods_fdci_assessment.framework */; };
+		1782BD34F37B72B58BDF5345 /* Pods_fdci_assessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980F2B6E284C7A34000D1D9C /* Pods_fdci_assessmentTests.framework */; };
+		469754E173A08181DEFB5F64 /* Pods_fdci_assessment_fdci_assessmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 477744E87357F925D07D9F36 /* Pods_fdci_assessment_fdci_assessmentUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7798D132D2CEA1400E5DFAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7798CF42D2CEA1100E5DFAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7798CFB2D2CEA1100E5DFAB;
+			remoteInfo = fdci_assessment;
+		};
+		F7798D1D2D2CEA1400E5DFAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7798CF42D2CEA1100E5DFAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7798CFB2D2CEA1100E5DFAB;
+			remoteInfo = fdci_assessment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084EAE348D0BE8931160057E /* Pods-fdci_assessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fdci_assessmentTests.release.xcconfig"; path = "Target Support Files/Pods-fdci_assessmentTests/Pods-fdci_assessmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		0D8AF37C6B31CECC084DE5EF /* Pods-fdci_assessment-fdci_assessmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fdci_assessment-fdci_assessmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-fdci_assessment-fdci_assessmentUITests/Pods-fdci_assessment-fdci_assessmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		179442D504510CCAA0B73028 /* Pods_fdci_assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fdci_assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FF430CC49A1E1D819CFA62 /* Pods-fdci_assessment-fdci_assessmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fdci_assessment-fdci_assessmentUITests.release.xcconfig"; path = "Target Support Files/Pods-fdci_assessment-fdci_assessmentUITests/Pods-fdci_assessment-fdci_assessmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		477744E87357F925D07D9F36 /* Pods_fdci_assessment_fdci_assessmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fdci_assessment_fdci_assessmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		980F2B6E284C7A34000D1D9C /* Pods_fdci_assessmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fdci_assessmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78C2FD4BBD883FB61FFC1D4 /* Pods-fdci_assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fdci_assessment.release.xcconfig"; path = "Target Support Files/Pods-fdci_assessment/Pods-fdci_assessment.release.xcconfig"; sourceTree = "<group>"; };
+		B9C2479C9BA654363E9CC28A /* Pods-fdci_assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fdci_assessment.debug.xcconfig"; path = "Target Support Files/Pods-fdci_assessment/Pods-fdci_assessment.debug.xcconfig"; sourceTree = "<group>"; };
+		F7798CFC2D2CEA1100E5DFAB /* fdci_assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fdci_assessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7798D122D2CEA1400E5DFAB /* fdci_assessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fdci_assessmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7798D1C2D2CEA1400E5DFAB /* fdci_assessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fdci_assessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8FECB8DE5127D7D674AC7E2 /* Pods-fdci_assessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fdci_assessmentTests.debug.xcconfig"; path = "Target Support Files/Pods-fdci_assessmentTests/Pods-fdci_assessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F7798D242D2CEA1400E5DFAB /* Exceptions for "fdci_assessment" folder in "fdci_assessment" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F7798CFB2D2CEA1100E5DFAB /* fdci_assessment */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F7798CFE2D2CEA1100E5DFAB /* fdci_assessment */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F7798D242D2CEA1400E5DFAB /* Exceptions for "fdci_assessment" folder in "fdci_assessment" target */,
+			);
+			path = fdci_assessment;
+			sourceTree = "<group>";
+		};
+		F7798D152D2CEA1400E5DFAB /* fdci_assessmentTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = fdci_assessmentTests;
+			sourceTree = "<group>";
+		};
+		F7798D1F2D2CEA1400E5DFAB /* fdci_assessmentUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = fdci_assessmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7798CF92D2CEA1100E5DFAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FB83BECBE227691F7634CF /* Pods_fdci_assessment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7798D0F2D2CEA1400E5DFAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1782BD34F37B72B58BDF5345 /* Pods_fdci_assessmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7798D192D2CEA1400E5DFAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				469754E173A08181DEFB5F64 /* Pods_fdci_assessment_fdci_assessmentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		012BAA32CD0DA71B80D00C06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9C2479C9BA654363E9CC28A /* Pods-fdci_assessment.debug.xcconfig */,
+				B78C2FD4BBD883FB61FFC1D4 /* Pods-fdci_assessment.release.xcconfig */,
+				0D8AF37C6B31CECC084DE5EF /* Pods-fdci_assessment-fdci_assessmentUITests.debug.xcconfig */,
+				41FF430CC49A1E1D819CFA62 /* Pods-fdci_assessment-fdci_assessmentUITests.release.xcconfig */,
+				F8FECB8DE5127D7D674AC7E2 /* Pods-fdci_assessmentTests.debug.xcconfig */,
+				084EAE348D0BE8931160057E /* Pods-fdci_assessmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		77C98A14100C664D86245561 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				179442D504510CCAA0B73028 /* Pods_fdci_assessment.framework */,
+				477744E87357F925D07D9F36 /* Pods_fdci_assessment_fdci_assessmentUITests.framework */,
+				980F2B6E284C7A34000D1D9C /* Pods_fdci_assessmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7798CF32D2CEA1100E5DFAB = {
+			isa = PBXGroup;
+			children = (
+				F7798CFE2D2CEA1100E5DFAB /* fdci_assessment */,
+				F7798D152D2CEA1400E5DFAB /* fdci_assessmentTests */,
+				F7798D1F2D2CEA1400E5DFAB /* fdci_assessmentUITests */,
+				F7798CFD2D2CEA1100E5DFAB /* Products */,
+				012BAA32CD0DA71B80D00C06 /* Pods */,
+				77C98A14100C664D86245561 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7798CFD2D2CEA1100E5DFAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7798CFC2D2CEA1100E5DFAB /* fdci_assessment.app */,
+				F7798D122D2CEA1400E5DFAB /* fdci_assessmentTests.xctest */,
+				F7798D1C2D2CEA1400E5DFAB /* fdci_assessmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7798CFB2D2CEA1100E5DFAB /* fdci_assessment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7798D252D2CEA1400E5DFAB /* Build configuration list for PBXNativeTarget "fdci_assessment" */;
+			buildPhases = (
+				95251B394CBF1A948F9B20B8 /* [CP] Check Pods Manifest.lock */,
+				F7798CF82D2CEA1100E5DFAB /* Sources */,
+				F7798CF92D2CEA1100E5DFAB /* Frameworks */,
+				F7798CFA2D2CEA1100E5DFAB /* Resources */,
+				8314E9F569A6F6563BABFD02 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F7798CFE2D2CEA1100E5DFAB /* fdci_assessment */,
+			);
+			name = fdci_assessment;
+			productName = fdci_assessment;
+			productReference = F7798CFC2D2CEA1100E5DFAB /* fdci_assessment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7798D112D2CEA1400E5DFAB /* fdci_assessmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7798D2A2D2CEA1400E5DFAB /* Build configuration list for PBXNativeTarget "fdci_assessmentTests" */;
+			buildPhases = (
+				309A4774F369F37D3870C09C /* [CP] Check Pods Manifest.lock */,
+				F7798D0E2D2CEA1400E5DFAB /* Sources */,
+				F7798D0F2D2CEA1400E5DFAB /* Frameworks */,
+				F7798D102D2CEA1400E5DFAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7798D142D2CEA1400E5DFAB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F7798D152D2CEA1400E5DFAB /* fdci_assessmentTests */,
+			);
+			name = fdci_assessmentTests;
+			productName = fdci_assessmentTests;
+			productReference = F7798D122D2CEA1400E5DFAB /* fdci_assessmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7798D1B2D2CEA1400E5DFAB /* fdci_assessmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7798D2D2D2CEA1400E5DFAB /* Build configuration list for PBXNativeTarget "fdci_assessmentUITests" */;
+			buildPhases = (
+				069D6A6C2F5449F6652786DD /* [CP] Check Pods Manifest.lock */,
+				F7798D182D2CEA1400E5DFAB /* Sources */,
+				F7798D192D2CEA1400E5DFAB /* Frameworks */,
+				F7798D1A2D2CEA1400E5DFAB /* Resources */,
+				6BC2670E6330E20ACAEFAD62 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7798D1E2D2CEA1400E5DFAB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F7798D1F2D2CEA1400E5DFAB /* fdci_assessmentUITests */,
+			);
+			name = fdci_assessmentUITests;
+			productName = fdci_assessmentUITests;
+			productReference = F7798D1C2D2CEA1400E5DFAB /* fdci_assessmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7798CF42D2CEA1100E5DFAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F7798CFB2D2CEA1100E5DFAB = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F7798D112D2CEA1400E5DFAB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F7798CFB2D2CEA1100E5DFAB;
+					};
+					F7798D1B2D2CEA1400E5DFAB = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F7798CFB2D2CEA1100E5DFAB;
+					};
+				};
+			};
+			buildConfigurationList = F7798CF72D2CEA1100E5DFAB /* Build configuration list for PBXProject "fdci_assessment" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7798CF32D2CEA1100E5DFAB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F7798CFD2D2CEA1100E5DFAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7798CFB2D2CEA1100E5DFAB /* fdci_assessment */,
+				F7798D112D2CEA1400E5DFAB /* fdci_assessmentTests */,
+				F7798D1B2D2CEA1400E5DFAB /* fdci_assessmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7798CFA2D2CEA1100E5DFAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7798D102D2CEA1400E5DFAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7798D1A2D2CEA1400E5DFAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		069D6A6C2F5449F6652786DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fdci_assessment-fdci_assessmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		309A4774F369F37D3870C09C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fdci_assessmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BC2670E6330E20ACAEFAD62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fdci_assessment-fdci_assessmentUITests/Pods-fdci_assessment-fdci_assessmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fdci_assessment-fdci_assessmentUITests/Pods-fdci_assessment-fdci_assessmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fdci_assessment-fdci_assessmentUITests/Pods-fdci_assessment-fdci_assessmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8314E9F569A6F6563BABFD02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fdci_assessment/Pods-fdci_assessment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fdci_assessment/Pods-fdci_assessment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fdci_assessment/Pods-fdci_assessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95251B394CBF1A948F9B20B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fdci_assessment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7798CF82D2CEA1100E5DFAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7798D0E2D2CEA1400E5DFAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7798D182D2CEA1400E5DFAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7798D142D2CEA1400E5DFAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7798CFB2D2CEA1100E5DFAB /* fdci_assessment */;
+			targetProxy = F7798D132D2CEA1400E5DFAB /* PBXContainerItemProxy */;
+		};
+		F7798D1E2D2CEA1400E5DFAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7798CFB2D2CEA1100E5DFAB /* fdci_assessment */;
+			targetProxy = F7798D1D2D2CEA1400E5DFAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F7798D262D2CEA1400E5DFAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C2479C9BA654363E9CC28A /* Pods-fdci_assessment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ARRM6MZCW;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fdci_assessment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appetiser.movieapp.fdci-assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7798D272D2CEA1400E5DFAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78C2FD4BBD883FB61FFC1D4 /* Pods-fdci_assessment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ARRM6MZCW;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fdci_assessment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appetiser.movieapp.fdci-assessment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7798D282D2CEA1400E5DFAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7798D292D2CEA1400E5DFAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7798D2B2D2CEA1400E5DFAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8FECB8DE5127D7D674AC7E2 /* Pods-fdci_assessmentTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ARRM6MZCW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appetiser.movieapp.fdci-assessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fdci_assessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fdci_assessment";
+			};
+			name = Debug;
+		};
+		F7798D2C2D2CEA1400E5DFAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084EAE348D0BE8931160057E /* Pods-fdci_assessmentTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ARRM6MZCW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appetiser.movieapp.fdci-assessmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fdci_assessment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fdci_assessment";
+			};
+			name = Release;
+		};
+		F7798D2E2D2CEA1400E5DFAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8AF37C6B31CECC084DE5EF /* Pods-fdci_assessment-fdci_assessmentUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ARRM6MZCW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appetiser.movieapp.fdci-assessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fdci_assessment;
+			};
+			name = Debug;
+		};
+		F7798D2F2D2CEA1400E5DFAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41FF430CC49A1E1D819CFA62 /* Pods-fdci_assessment-fdci_assessmentUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ARRM6MZCW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appetiser.movieapp.fdci-assessmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fdci_assessment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7798CF72D2CEA1100E5DFAB /* Build configuration list for PBXProject "fdci_assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7798D282D2CEA1400E5DFAB /* Debug */,
+				F7798D292D2CEA1400E5DFAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7798D252D2CEA1400E5DFAB /* Build configuration list for PBXNativeTarget "fdci_assessment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7798D262D2CEA1400E5DFAB /* Debug */,
+				F7798D272D2CEA1400E5DFAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7798D2A2D2CEA1400E5DFAB /* Build configuration list for PBXNativeTarget "fdci_assessmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7798D2B2D2CEA1400E5DFAB /* Debug */,
+				F7798D2C2D2CEA1400E5DFAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7798D2D2D2CEA1400E5DFAB /* Build configuration list for PBXNativeTarget "fdci_assessmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7798D2E2D2CEA1400E5DFAB /* Debug */,
+				F7798D2F2D2CEA1400E5DFAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7798CF42D2CEA1100E5DFAB /* Project object */;
+}

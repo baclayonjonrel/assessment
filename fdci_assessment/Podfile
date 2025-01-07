@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'fdci_assessment' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Alamofire'
+
+  # Pods for fdci_assessment
+
+  target 'fdci_assessmentTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'fdci_assessmentUITests' do
+    # Pods for testing
+  end
+
+end

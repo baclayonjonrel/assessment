@@ -1,0 +1,6 @@
+framework module Pods_fdci_assessment_fdci_assessmentUITests {
+  umbrella header "Pods-fdci_assessment-fdci_assessmentUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
